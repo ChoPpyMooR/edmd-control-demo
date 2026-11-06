@@ -1,0 +1,19 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Editor and system files
+.idea/
+.DS_Store
+
+# Private configuration
+.env
+.env.*
+!.env.example
+
+# Local backup
+experiment_backup.py
+
+.pytest_cache/
